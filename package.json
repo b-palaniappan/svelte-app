@@ -45,13 +45,17 @@
 	"dependencies": {
 		"@fontsource/poppins": "^5.0.13",
 		"@internationalized/date": "^3.5.2",
+		"@unovis/svelte": "^1.4.0",
+		"@unovis/ts": "^1.4.0",
 		"bits-ui": "^0.21.2",
 		"clsx": "^2.1.0",
 		"cmdk-sv": "^0.0.17",
+		"embla-carousel-svelte": "^8.0.1",
 		"mode-watcher": "^0.3.0",
 		"svelte-radix": "^1.1.0",
 		"svelte-sonner": "^0.3.21",
 		"tailwind-merge": "^2.2.2",
-		"tailwind-variants": "^0.2.1"
+		"tailwind-variants": "^0.2.1",
+		"vaul-svelte": "^0.3.0"
 	}
 }
