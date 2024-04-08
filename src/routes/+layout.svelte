@@ -4,5 +4,6 @@
 	import { ModeWatcher } from 'mode-watcher';
 </script>
 
+<!-- Toggle Light and Dark modes -->
 <ModeWatcher />
 <slot />
