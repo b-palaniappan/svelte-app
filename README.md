@@ -8,21 +8,21 @@ If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
+bun create svelte@latest
 
 # create a new project in my-app
-npm create svelte@latest my-app
+bun create svelte@latest my-app
 ```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `bun install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
-npm run dev
+bun --bun run dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun --bun run dev -- --open
 ```
 
 ## Building
@@ -30,7 +30,7 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```bash
-npm run build
+bun run build
 ```
 
 You can preview the production build with `npm run preview`.
@@ -41,12 +41,12 @@ You can preview the production build with `npm run preview`.
 
 ### Adding shadcn components
 
-- To add a new shadcn compoent, run `pnpm dlx shadcn-svelte@latest add <compoent-name>`. Example: `pnpm dlx shadcn-svelte@latest add Button`.
-- To update shadcn components, run `pnpm dlx shadcn-svelte@latest update`. This will update all shadcn components to the latest version.
+- To add a new shadcn compoent, run `bunx shadcn-svelte@latest add  <compoent-name>`. Example: `bunx shadcn-svelte@latest add button`.
+- To update shadcn components, run `bunx shadcn-svelte@latest update`. This will update all shadcn components to the latest version.
 
 ### Adding fonts
 
-- To add a new font from [fontsource](https://fontsource.org/), run `pnpm add @fontsource/poppins`.
+- To add a new font from [fontsource](https://fontsource.org/), run `bun add @fontsource/poppins`.
 - Then import the font in `src/app.pcss` like this: `import '@fontsource/poppins';`.
 - Then add it to the css as, under `@layer base`.
 
